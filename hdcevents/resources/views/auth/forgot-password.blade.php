@@ -1,11 +1,11 @@
 <x-guest-layout>
     <x-jet-authentication-card>
         <x-slot name="logo">
-            <x-jet-authentication-card-logo />
+            <img src="./img/logo_transparent.png" width="100x" alt="">
         </x-slot>
 
         <div class="mb-4 text-sm text-gray-600">
-            {{ __('Forgot your password? No problem. Just let us know your email address and we will email you a password reset link that will allow you to choose a new one.') }}
+            {{ __('Esqueceu sua senha? Sem problemas, insira seu e-mail abaixo para receber um link para reset da sua senha!') }}
         </div>
 
         @if (session('status'))
